@@ -1,0 +1,6 @@
+framework module Pods_BTBubble_Example {
+  umbrella header "Pods-BTBubble_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

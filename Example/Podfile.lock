@@ -1,0 +1,23 @@
+PODS:
+  - BTBubble (0.0.1):
+    - SnapKit
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - BTBubble (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  BTBubble:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BTBubble: 23b4ca2cdd5682c4dab4c00c2e51ae66446e5a25
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: cb30c8e7d5acea443edf53323577e1eefa0c7b8b
+
+COCOAPODS: 1.11.2

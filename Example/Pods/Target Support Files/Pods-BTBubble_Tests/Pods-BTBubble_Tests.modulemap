@@ -1,0 +1,6 @@
+framework module Pods_BTBubble_Tests {
+  umbrella header "Pods-BTBubble_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
