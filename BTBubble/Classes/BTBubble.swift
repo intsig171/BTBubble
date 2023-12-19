@@ -54,11 +54,11 @@ public class BTBubble: UIView {
     
     // 气泡箭头
     /// 气泡箭头的大小
-    public var arrowSize = CGSize(width: 13, height: 7)
+    public var arrowSize = BTBubbleConfig.shared.arrow.arrowSize
     /// 气泡箭头的圆角
-    public var arrowRadius = CGFloat(0.0)
+    public var arrowRadius = BTBubbleConfig.shared.arrow.arrowRadius
     /// 气泡箭头的偏移量
-    public var arrowOffset: ArrowOffset = .auto(20)
+    public var arrowOffset: ArrowOffset = BTBubbleConfig.shared.arrow.arrowOffset
     
 
     
@@ -120,6 +120,8 @@ public class BTBubble: UIView {
     public var actionDelayOut: TimeInterval = 0
 
     
+    
+    
     // 手势 & 事件
     /// 点击气泡是否支持消失
     public var shouldDismissOnTap = true
@@ -127,14 +129,6 @@ public class BTBubble: UIView {
     public var shouldDismissOnTapOutside = true
     /// 决定在气泡外滑动是否隐藏气泡
     public var shouldDismissOnScrollOutside = true
-    
-    
-    /// 气泡出现
-    public var appearHandler: ((BTBubble) -> Void)?
-    /// 气泡消失
-    public var dismissHandler: ((BTBubble) -> Void)?
-    
-    
     /// 点击气泡区域
     public var tapHandler: ((BTBubble) -> Void)?
     /// 点击了气泡之外的区域
@@ -143,7 +137,14 @@ public class BTBubble: UIView {
     public var tapTargetHandler: ((BTBubble) -> Void)?
     /// 气泡外滑动
     public var scrollOutsideHandler: ((BTBubble) -> Void)?
-
+    
+    
+    /// 气泡出现
+    public var appearHandler: ((BTBubble) -> Void)?
+    /// 气泡消失
+    public var dismissHandler: ((BTBubble) -> Void)?
+    
+    
 
     /// 弹出框显示的文本。可以更新一旦弹出提示是可见的
     public private(set) var text: String? {

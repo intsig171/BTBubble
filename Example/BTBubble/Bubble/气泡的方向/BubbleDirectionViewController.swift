@@ -19,6 +19,10 @@ class BubbleDirectionViewController: BubbleBaseViewController {
         loadDirectionUI()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+//        bubble.show(text: "将进酒 - 李白", direction: .up, from: centerButton)
+    }
 
     
     
@@ -33,9 +37,9 @@ class BubbleDirectionViewController: BubbleBaseViewController {
     
     lazy var topButton: UIButton = createDirectionButton(tag: 0, text: "上")
     lazy var leftButton: UIButton = createDirectionButton(tag: 1, text: "左")
-    lazy var centerButton: UIButton = createDirectionButton(tag: 2, text: "中")
-    lazy var rightButton: UIButton = createDirectionButton(tag: 3, text: "右")
-    lazy var bottomButton: UIButton = createDirectionButton(tag: 4, text: "下")
+    lazy var rightButton: UIButton = createDirectionButton(tag: 2, text: "右")
+    lazy var bottomButton: UIButton = createDirectionButton(tag: 3, text: "下")
+    lazy var centerButton: UIButton = createDirectionButton(tag: 4, text: "中")
 }
 
 extension BubbleDirectionViewController {
@@ -44,21 +48,25 @@ extension BubbleDirectionViewController {
     
     
  
-    func updateFrom111() {
-//        bubble.show(text: "将进酒 - 李白", direction: .up, from: centerButton)
-//
-//        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
-//            self.bubble.show(text: "人生得意须尽欢", direction: .down, from: self.bottomButton)
-//            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
-//                self.bubble.show(text: "莫使金樽空对月", direction: .left, from: self.leftButton)
-//                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
-//                    self.bubble.show(text: "天生我材必有用", direction: .up, from: self.topButton)
-//                    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
-//                        self.bubble.show(text: "千金散尽还复来", direction: .right, from: self.rightButton)
-//                    }
-//                }
-//            }
-//        }
+    func update() {
+
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
+            self.bubble.show(text: "将进酒 - 李白", direction: .up, maxWidth: 200, from: self.centerButton)
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
+                self.bubble.show(text: "人生得意须尽欢", direction: .down, maxWidth: 200, from: self.bottomButton)
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
+                    self.bubble.show(text: "莫使金樽空对月", direction: .left, maxWidth: 200, from: self.leftButton)
+                    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
+                        self.bubble.show(text: "天生我材必有用", direction: .up, maxWidth: 200, from: self.topButton)
+                        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
+                            self.bubble.show(text: "千金散尽还复来", direction: .right, maxWidth: 200, from: self.rightButton)
+                        }
+                    }
+                }
+            }
+        }
+        
+        
     }
 }
 
@@ -134,7 +142,9 @@ extension BubbleDirectionViewController {
             bubble.show(text: text, direction: .right, from: sender)
             
         case 4:
-            bubble.show(text: text, direction: .auto, from: sender)
+            bubble = BTBubble()
+            update()
+//            bubble.show(text: text, direction: .auto, from: sender)
             
         default:
             break

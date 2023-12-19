@@ -18,6 +18,9 @@ public struct BTBubbleConfig {
     /// 文字的相关设置
     public var textSetting = BTBubbleConfig.TextSetting()
     
+    /// 气泡的箭头
+    public var arrow = BTBubbleConfig.Arrow()
+    
     /// 气泡的最大宽度
     public var maxWidth: CGFloat = 282
     /// 气泡文案最大高度（不影响自定义）
@@ -74,4 +77,16 @@ extension BTBubbleConfig {
     }
 }
 
+extension BTBubbleConfig {
+    /// 气泡箭头
+    public struct Arrow {
+        /// 气泡箭头的大小
+        public var arrowSize = CGSize(width: 13, height: 7)
+        /// 气泡箭头的圆角
+        public var arrowRadius = CGFloat(0.0)
+        /// 气泡箭头的偏移量
+        public var arrowOffset: BTBubble.ArrowOffset = .auto(20)
+        
+    }
+}
 

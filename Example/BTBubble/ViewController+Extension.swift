@@ -49,11 +49,28 @@ extension ViewController {
             
         case 1:
             
+            switch indexPath.row {
+            case 0:
+                tempVc.title = subModel.title
+                tempVc.bubble.font = UIFont.systemFont(ofSize: 20)
+                tempVc.bubble.textColor = UIColor.red
+                tempVc.bubble.textAlignment = .center
+                
+            case 1:
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
+                    tempVc.bubble.update(text: "床前看月光，疑是地上霜。")
+                    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
+                        tempVc.bubble.update(text: "抬头望山月，低头思故乡。")
+                        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1.5) {
+                            tempVc.bubble.hide()
+                        }
+                    }
+                }
+            default:
+                break
+            }
             
-            tempVc.title = subModel.title
-            tempVc.bubble.font = UIFont.systemFont(ofSize: 20)
-            tempVc.bubble.textColor = UIColor.red
-            tempVc.bubble.textAlignment = .center
+
             
             return tempVc
             
@@ -121,12 +138,85 @@ extension ViewController {
                 tempVc.bubble.shouldCutoutMask = true
                 tempVc.isCustomCutout = true
                 
-                
-                
             default:
                 break
             }
             return tempVc
+            
+            
+        case 5:
+            
+            let dirVc = BubbleDirectionViewController()
+            dirVc.title = subModel.title
+            
+            switch indexPath.row {
+            case 0:
+                dirVc.isAutoShowBubble = false
+               break
+            case 1:
+                dirVc.isAutoShowBubble = false
+                dirVc.update()
+                break
+            default:
+                break
+            }
+            return dirVc
+            
+            
+        case 6:
+            let dirVc = BubbleAnimateViewController()
+            dirVc.title = "气泡的动画"
+            return dirVc
+            
+        case 7:
+            let ge = GestureViewController()
+            ge.title = "气泡的手势"
+            return ge
+            
+        case 8:
+            let ge = GestureViewController()
+            ge.title = "气泡的生命周期"
+            return ge
+            
+        case 9:
+            
+            let style = BubbleShowStyleViewController()
+            style.title = subModel.title
+            
+            switch indexPath.row {
+            case 0:
+                style.button.tag = 1000
+        
+            case 1:
+                style.button.tag = 1001
+                
+            case 2:
+                style.button.tag = 1002
+                
+            default:
+                break
+            }
+            return style
+            
+            
+        case 10:
+            
+         
+            
+            switch indexPath.row {
+            case 0:
+                let menu = BubbleMenuViewController()
+                menu.title = subModel.title
+                return menu
+        
+            case 1:
+                
+                break
+                
+            default:
+                break
+            }
+            
             
         default:
             break

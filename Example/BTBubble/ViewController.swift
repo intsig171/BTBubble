@@ -36,7 +36,9 @@ class ViewController: UIViewController {
         
         Model(title: "气泡的文字",
               items: [
-                SubModel(title: "文字的设置", vc: "BubbleBaseViewController")
+                SubModel(title: "文字的设置", vc: "BubbleBaseViewController"),
+                SubModel(title: "文字的更新内容", vc: "BubbleBaseViewController")
+
               ]
              ),
         
@@ -65,6 +67,53 @@ class ViewController: UIViewController {
                 SubModel(title: "遮罩层的颜色", vc: "BubbleBaseViewController"),
                 SubModel(title: "遮罩层的挖孔", vc: "BubbleBaseViewController"),
                 SubModel(title: "遮罩层的自定义挖孔", vc: "BubbleBaseViewController"),
+              ]
+             ),
+        
+        
+        Model(title: "气泡的方向",
+              items: [
+                SubModel(title: "气泡的方向", vc: "BubbleDirectionViewController"),
+                SubModel(title: "气泡自动更换方向", vc: "BubbleDirectionViewController"),
+              ]
+             ),
+        
+        Model(title: "气泡的动画",
+              items: [
+                SubModel(title: "气泡的开始动画", vc: "BubbleAnimateViewController"),
+                SubModel(title: "气泡的动作动画", vc: "BubbleAnimateViewController"),
+                SubModel(title: "气泡的退出动画", vc: "BubbleAnimateViewController"),
+              ]
+             ),
+        
+        Model(title: "气泡的手势",
+              items: [
+                SubModel(title: "点击气泡是否支持消失", vc: "BubbleBaseViewController"),
+                SubModel(title: "点击气泡外区域是否支持消失", vc: "BubbleBaseViewController"),
+                SubModel(title: "在气泡外滑动是否隐藏气泡", vc: "BubbleBaseViewController"),
+              ]
+             ),
+        
+        Model(title: "气泡的生命周期",
+              items: [
+                SubModel(title: "气泡出现", vc: "BubbleBaseViewController"),
+                SubModel(title: "气泡消失", vc: "BubbleBaseViewController"),
+              ]
+             ),
+        
+        Model(title: "气泡的三种展示方式",
+              items: [
+                SubModel(title: "文字类型", vc: "BubbleBaseViewController"),
+                SubModel(title: "富文本类型", vc: "BubbleBaseViewController"),
+                SubModel(title: "自定类型", vc: "BubbleBaseViewController"),
+              ]
+             ),
+        
+        Model(title: "气泡的高阶用法",
+              items: [
+                SubModel(title: "菜单气泡", vc: "BubbleBaseViewController"),
+                SubModel(title: "富文本类型", vc: "BubbleBaseViewController"),
+                SubModel(title: "自定类型", vc: "BubbleBaseViewController"),
               ]
              ),
     ]
