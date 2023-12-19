@@ -1,5 +1,10 @@
 # BTBubble
 
+
+![播放视频](https://github.com/intsig171/BTBubble/blob/main/Smaple/演示.mp4)
+[播放视频](https://github.com/intsig171/BTBubble/blob/main/Smaple/演示.mp4)
+
+
 [![CI Status](https://img.shields.io/travis/mancong@bertadata.com/BTBubble.svg?style=flat)](https://travis-ci.org/mancong@bertadata.com/BTBubble)
 [![Version](https://img.shields.io/cocoapods/v/BTBubble.svg?style=flat)](https://cocoapods.org/pods/BTBubble)
 [![License](https://img.shields.io/cocoapods/l/BTBubble.svg?style=flat)](https://cocoapods.org/pods/BTBubble)
