@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   
   s.homepage         = 'https://github.com/intsig171'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Mccc' => 'mancong@bertadata.com' }
+  s.author           = { 'Mccc' => 'Mccc' }
   s.source           = { :git => 'https://github.com/intsig171/BTBubble.git', :tag => s.version.to_s }
   
   s.platform              = :ios, '11.0'

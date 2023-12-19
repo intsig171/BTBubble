@@ -1,33 +1,37 @@
-# BTBubble
 
 
-![播放视频](https://github.com/intsig171/BTBubble/blob/main/Smaple/演示.mp4)
-[播放视频](https://github.com/intsig171/BTBubble/blob/main/Smaple/演示.mp4)
+# BTBubble(气泡)
 
 
-[![CI Status](https://img.shields.io/travis/mancong@bertadata.com/BTBubble.svg?style=flat)](https://travis-ci.org/mancong@bertadata.com/BTBubble)
-[![Version](https://img.shields.io/cocoapods/v/BTBubble.svg?style=flat)](https://cocoapods.org/pods/BTBubble)
-[![License](https://img.shields.io/cocoapods/l/BTBubble.svg?style=flat)](https://cocoapods.org/pods/BTBubble)
-[![Platform](https://img.shields.io/cocoapods/p/BTBubble.svg?style=flat)](https://cocoapods.org/pods/BTBubble)
 
-## Example
+这是Swift语言实现的一款气泡能力。
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![演示](https://github.com/intsig171/BTBubble/blob/main/Smaple/bubble%20smaple.gif)
 
-## Requirements
+您可以下载本项目，查看 **Example**  工程，获取更多的使用示例。
 
-## Installation
 
-BTBubble is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
 
-```ruby
+### 如何使用
+
+```
 pod 'BTBubble'
 ```
 
-## Author
+```
+import BTBubble
 
-mancong@bertadata.com, mancong@bertadata.com
+var bubble = BTBubble()
+bubble.show(text: "明亮的月光洒在窗户纸上，好像地上泛起了一层白霜。", from: button)
+```
+
+
+
+### 简介
+
+![](https://github.com/intsig171/BTBubble/blob/main/Smaple/BTBubble.png)
+
+
 
 ## License
 
