@@ -20,47 +20,36 @@ import UIKit
 
 public class BTBubble: UIView {
     
+    
     // 气泡
-    /// 气泡的背景颜色
-    public var bubbleColor = UIColor.white
+    /// 气泡的填充颜色（背景颜色）
+    public var fillColor = BTBubbleConfig.shared.appearance.backgroundColor
     /// 气泡圆角的设置
-    public var cornerRadius = CGFloat(4.0)
+    public var cornerRadius = BTBubbleConfig.shared.appearance.cornerRadius
     /// 气泡边框颜色
-    public var borderColor = UIColor.clear
+    public var borderColor = BTBubbleConfig.shared.appearance.borderColor
     /// 气泡边框宽度 (设置过大，会出现UI问题)
-    public var borderWidth = CGFloat(0.0)
+    public var borderWidth = BTBubbleConfig.shared.appearance.borderWidth
     /// 气泡阴影的颜色
-    public var shadowColor: UIColor = UIColor.init(white: 0, alpha: 0.8)
+    public var shadowColor: UIColor = BTBubbleConfig.shared.appearance.shadowColor
     /// 气泡阴影的偏移量
-    public var shadowOffset: CGSize = .zero
+    public var shadowOffset: CGSize = BTBubbleConfig.shared.appearance.shadowOffset
     /// 气泡阴影的圆角
-    public var shadowRadius: Float = 4
+    public var shadowRadius: Float = BTBubbleConfig.shared.appearance.shadowRadius
     /// 气泡阴影的不透明度
-    public var shadowOpacity: Float = 0.2
+    public var shadowOpacity: Float = BTBubbleConfig.shared.appearance.shadowOpacity
     /// 气泡的内边距
-    public var edgeInsets = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
+    public var edgeInsets = BTBubbleConfig.shared.appearance.edgeInsets
 
     
     // 气泡文字
     /// 气泡上的文字大小
-    public var font = UIFont.systemFont(ofSize: 12)
+    public var font = BTBubbleConfig.shared.textSetting.font
     /// 气泡上的文字颜色
-    public var textColor = UIColor.darkGray
+    public var textColor = BTBubbleConfig.shared.textSetting.textColor
     /// 气泡字体的`NSTextAlignment`
-    public var textAlignment = NSTextAlignment.left
+    public var textAlignment = BTBubbleConfig.shared.textSetting.textAlignment
     
-    
-    // 遮罩层
-    /// 遮罩层的颜色
-    public var maskColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.6)
-    /// 是否显示遮罩层
-    public var shouldShowMask = false
-    /// 是否在遮罩层上显示挖剪层（突出）
-    public var shouldCutoutMask = false {
-        didSet {
-            verticalOffset = 8
-        }
-    }
     
     
     // 气泡箭头
@@ -71,23 +60,32 @@ public class BTBubble: UIView {
     /// 气泡箭头的偏移量
     public var arrowOffset: ArrowOffset = .auto(20)
     
-    /// 气泡距离目标区域的距离（轴线方向垂直偏移，负数趋向目标移动，正数背离目标移动）
-    public var verticalOffset = CGFloat(2.0)
 
-    /// 气泡箭头相对于目标控件的中心的偏移量（水平偏移，负数趋向左，正数向右）
-    public var horizontalOffset = CGFloat(0)
     
     
-    /// 目标控件的frame，可以通过改变  `from` 改变位置。
-    public var from = CGRect.zero {
-        didSet {
-            setup()
-        }
-    }
+    // 遮罩层
+    /// 遮罩层的颜色
+    public var maskColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.6)
+    /// 是否显示遮罩层
+    public var shouldShowMask = false
+    /// 是否在遮罩层上显示挖孔（突出）
+    public var shouldCutoutMask = false { didSet { verticalOffset = 8 } }
+    /// 设置cutout的自定义样式 （裁剪漏出的图形）
+    public var cutoutBezierPath: UIBezierPath?
     
-    // 气泡于之外的关系
+    
+    
+    
+    // 气泡的位置
     /// 气泡距离屏幕最小间距
     public var distanceFromBoundary = CGFloat(16.0)
+    /// 气泡距离目标区域的距离（轴线方向垂直偏移，负数趋向目标移动，正数背离目标移动）
+    public var verticalOffset = CGFloat(2.0)
+    /// 气泡(整体)相对于目标控件的中心的偏移量（水平偏移，负数趋向左，正数向右）
+    public var horizontalOffset = CGFloat(0)
+    /// 目标控件的frame，可以通过改变  `from` 改变位置。
+    public var from = CGRect.zero { didSet { setup() } }
+    
     
     
     
@@ -135,6 +133,8 @@ public class BTBubble: UIView {
     public var appearHandler: ((BTBubble) -> Void)?
     /// 气泡消失
     public var dismissHandler: ((BTBubble) -> Void)?
+    
+    
     /// 点击气泡区域
     public var tapHandler: ((BTBubble) -> Void)?
     /// 点击了气泡之外的区域
@@ -168,10 +168,7 @@ public class BTBubble: UIView {
     public private(set) var tapGestureRecognizer: UITapGestureRecognizer?
     /// 移除手势
     public private(set) var tapToRemoveGestureRecognizer: UITapGestureRecognizer?
-    
-    /// 设置cutout的自定义样式 （裁剪漏出的图形）
-    public var cutoutBezierPath: UIBezierPath?
-    
+
     /// 设置cutout的样式 （裁剪漏出的图形）
     internal func cutoutPathGenerator(_ from: CGRect) -> UIBezierPath {
         if let temp = self.cutoutBezierPath {
@@ -701,7 +698,7 @@ extension BTBubble {
         layer.shadowOffset = shadowOffset
         layer.shadowColor = shadowColor.cgColor
         
-        bubbleColor.setFill()
+        fillColor.setFill()
         path.fill()
         
         borderColor.setStroke()

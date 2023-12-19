@@ -13,10 +13,16 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		996462DB2B3047F700319253 /* Bubble1DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462D72B3047F700319253 /* Bubble1DetailViewController.swift */; };
+		996462DB2B3047F700319253 /* BubbleDirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462D72B3047F700319253 /* BubbleDirectionViewController.swift */; };
 		996462DC2B3047F700319253 /* Bubble0DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462D82B3047F700319253 /* Bubble0DetailViewController.swift */; };
 		996462DD2B3047F700319253 /* BubbleInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462D92B3047F700319253 /* BubbleInputViewController.swift */; };
 		996462DF2B30485600319253 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462DE2B30485600319253 /* Tools.swift */; };
+		996462E22B304C1100319253 /* AppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462E12B304C1100319253 /* AppearanceViewController.swift */; };
+		996462E42B304C7D00319253 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462E32B304C7D00319253 /* Model.swift */; };
+		996462E62B30534300319253 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462E52B30534300319253 /* ViewController+Extension.swift */; };
+		996462EA2B31315D00319253 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462E92B31315D00319253 /* TextViewController.swift */; };
+		996462EC2B31339700319253 /* ArrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462EB2B31339700319253 /* ArrowViewController.swift */; };
+		996462EE2B313C8200319253 /* BubbleBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462ED2B313C8200319253 /* BubbleBaseViewController.swift */; };
 		A36A836D896E8F34914F18B4 /* Pods_BTBubble_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC9393B4D55672BCBFA4898 /* Pods_BTBubble_Example.framework */; };
 		BB13C9CEBADA8415CDCBC950 /* Pods_BTBubble_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDAAB37B7C2D806AB238563 /* Pods_BTBubble_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -45,10 +51,16 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		88405EA609EBB7AC096C9661 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		996462D72B3047F700319253 /* Bubble1DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble1DetailViewController.swift; sourceTree = "<group>"; };
+		996462D72B3047F700319253 /* BubbleDirectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleDirectionViewController.swift; sourceTree = "<group>"; };
 		996462D82B3047F700319253 /* Bubble0DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble0DetailViewController.swift; sourceTree = "<group>"; };
 		996462D92B3047F700319253 /* BubbleInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleInputViewController.swift; sourceTree = "<group>"; };
 		996462DE2B30485600319253 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tools.swift; path = ../../../BTBubble/Classes/Tools.swift; sourceTree = "<group>"; };
+		996462E12B304C1100319253 /* AppearanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceViewController.swift; sourceTree = "<group>"; };
+		996462E32B304C7D00319253 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		996462E52B30534300319253 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		996462E92B31315D00319253 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		996462EB2B31339700319253 /* ArrowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowViewController.swift; sourceTree = "<group>"; };
+		996462ED2B313C8200319253 /* BubbleBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleBaseViewController.swift; sourceTree = "<group>"; };
 		9BC9393B4D55672BCBFA4898 /* Pods_BTBubble_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTBubble_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07AF71BE4FB3E2FDEF8E846 /* BTBubble.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BTBubble.podspec; path = ../BTBubble.podspec; sourceTree = "<group>"; };
 		C7F5FDC42AABE37B0F4463E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -123,6 +135,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				996462E52B30534300319253 /* ViewController+Extension.swift */,
+				996462E32B304C7D00319253 /* Model.swift */,
 				996462D52B3047F700319253 /* Bubble */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -171,12 +185,40 @@
 		996462D52B3047F700319253 /* Bubble */ = {
 			isa = PBXGroup;
 			children = (
-				996462D72B3047F700319253 /* Bubble1DetailViewController.swift */,
+				996462ED2B313C8200319253 /* BubbleBaseViewController.swift */,
+				996462D72B3047F700319253 /* BubbleDirectionViewController.swift */,
+				996462E72B306DD500319253 /* 气泡的文字设置 */,
+				996462E82B306DD500319253 /* 气泡的箭头设置 */,
+				996462E02B304BDF00319253 /* 气泡的外观设置 */,
 				996462D82B3047F700319253 /* Bubble0DetailViewController.swift */,
 				996462D92B3047F700319253 /* BubbleInputViewController.swift */,
 				996462DE2B30485600319253 /* Tools.swift */,
 			);
 			path = Bubble;
+			sourceTree = "<group>";
+		};
+		996462E02B304BDF00319253 /* 气泡的外观设置 */ = {
+			isa = PBXGroup;
+			children = (
+				996462E12B304C1100319253 /* AppearanceViewController.swift */,
+			);
+			path = "气泡的外观设置";
+			sourceTree = "<group>";
+		};
+		996462E72B306DD500319253 /* 气泡的文字设置 */ = {
+			isa = PBXGroup;
+			children = (
+				996462E92B31315D00319253 /* TextViewController.swift */,
+			);
+			path = "气泡的文字设置";
+			sourceTree = "<group>";
+		};
+		996462E82B306DD500319253 /* 气泡的箭头设置 */ = {
+			isa = PBXGroup;
+			children = (
+				996462EB2B31339700319253 /* ArrowViewController.swift */,
+			);
+			path = "气泡的箭头设置";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,9 +398,15 @@
 				996462DC2B3047F700319253 /* Bubble0DetailViewController.swift in Sources */,
 				996462DD2B3047F700319253 /* BubbleInputViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				996462DB2B3047F700319253 /* Bubble1DetailViewController.swift in Sources */,
+				996462DB2B3047F700319253 /* BubbleDirectionViewController.swift in Sources */,
+				996462EE2B313C8200319253 /* BubbleBaseViewController.swift in Sources */,
+				996462E22B304C1100319253 /* AppearanceViewController.swift in Sources */,
+				996462EA2B31315D00319253 /* TextViewController.swift in Sources */,
+				996462E62B30534300319253 /* ViewController+Extension.swift in Sources */,
 				996462DF2B30485600319253 /* Tools.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				996462E42B304C7D00319253 /* Model.swift in Sources */,
+				996462EC2B31339700319253 /* ArrowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

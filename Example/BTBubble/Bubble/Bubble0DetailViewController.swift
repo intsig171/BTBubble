@@ -95,9 +95,9 @@ class Bubble0DetailViewController: UIViewController {
         
         switch tag {
         case 0:
-            bubble.bubbleColor = UIColor.white
+//            bubble.bubbleColor = UIColor.white
             
-            bubble.cornerRadius = 4
+//            bubble.cornerRadius = 4
             
             bubble.borderColor = UIColor.clear
             

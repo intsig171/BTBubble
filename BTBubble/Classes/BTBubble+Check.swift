@@ -71,7 +71,7 @@ extension BTBubble {
      */
     func checkDirection() -> BTBubble.Direction {
         if direction.isAuto {
-            guard let containerView = containerView else { return direction}
+            guard let containerView = containerView else { return direction }
             var spaces: [BTBubble.Direction: CGFloat] = [:]
             
             if direction == .autoHorizontal || direction == .auto {
