@@ -6,7 +6,7 @@
 
 这是Swift语言实现的一款气泡能力。
 
-![演示](https://github.com/intsig171/BTBubble/blob/main/Smaple/bubble%20smaple.gif)
+
 
 您可以下载本项目，查看 **Example**  工程，获取更多的使用示例。
 
@@ -29,7 +29,8 @@ bubble.show(text: "明亮的月光洒在窗户纸上，好像地上泛起了一�
 
 ### 简介
 
-![](https://github.com/intsig171/BTBubble/blob/main/Smaple/BTBubble.png)
+![BTBubble](https://github.com/intsig171/BTBubble/assets/87351449/8b8b197d-c412-443a-98c7-42d655a2f6c3)
+
 
 
 
