@@ -14,8 +14,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		996462DB2B3047F700319253 /* BubbleDirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462D72B3047F700319253 /* BubbleDirectionViewController.swift */; };
-		996462DC2B3047F700319253 /* Bubble0DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462D82B3047F700319253 /* Bubble0DetailViewController.swift */; };
-		996462DD2B3047F700319253 /* BubbleInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462D92B3047F700319253 /* BubbleInputViewController.swift */; };
 		996462DF2B30485600319253 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462DE2B30485600319253 /* Tools.swift */; };
 		996462E22B304C1100319253 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462E12B304C1100319253 /* GestureViewController.swift */; };
 		996462E42B304C7D00319253 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462E32B304C7D00319253 /* Model.swift */; };
@@ -24,6 +22,8 @@
 		996462EE2B313C8200319253 /* BubbleBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996462ED2B313C8200319253 /* BubbleBaseViewController.swift */; };
 		99D625242B317BC400492DC2 /* BubbleShowStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D625232B317BC400492DC2 /* BubbleShowStyleViewController.swift */; };
 		99D625262B317F9600492DC2 /* BubbleMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D625252B317F9600492DC2 /* BubbleMenuViewController.swift */; };
+		99D6252D2B31829600492DC2 /* MobileAssociateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6252C2B31829600492DC2 /* MobileAssociateView.swift */; };
+		99D625312B31844A00492DC2 /* BubbleInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D625302B31844A00492DC2 /* BubbleInputViewController.swift */; };
 		A36A836D896E8F34914F18B4 /* Pods_BTBubble_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC9393B4D55672BCBFA4898 /* Pods_BTBubble_Example.framework */; };
 		BB13C9CEBADA8415CDCBC950 /* Pods_BTBubble_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDAAB37B7C2D806AB238563 /* Pods_BTBubble_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -53,8 +53,6 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		88405EA609EBB7AC096C9661 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		996462D72B3047F700319253 /* BubbleDirectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleDirectionViewController.swift; sourceTree = "<group>"; };
-		996462D82B3047F700319253 /* Bubble0DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble0DetailViewController.swift; sourceTree = "<group>"; };
-		996462D92B3047F700319253 /* BubbleInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleInputViewController.swift; sourceTree = "<group>"; };
 		996462DE2B30485600319253 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tools.swift; path = ../../../BTBubble/Classes/Tools.swift; sourceTree = "<group>"; };
 		996462E12B304C1100319253 /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 		996462E32B304C7D00319253 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -63,6 +61,8 @@
 		996462ED2B313C8200319253 /* BubbleBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleBaseViewController.swift; sourceTree = "<group>"; };
 		99D625232B317BC400492DC2 /* BubbleShowStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleShowStyleViewController.swift; sourceTree = "<group>"; };
 		99D625252B317F9600492DC2 /* BubbleMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleMenuViewController.swift; sourceTree = "<group>"; };
+		99D6252C2B31829600492DC2 /* MobileAssociateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileAssociateView.swift; sourceTree = "<group>"; };
+		99D625302B31844A00492DC2 /* BubbleInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleInputViewController.swift; sourceTree = "<group>"; };
 		9BC9393B4D55672BCBFA4898 /* Pods_BTBubble_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTBubble_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07AF71BE4FB3E2FDEF8E846 /* BTBubble.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BTBubble.podspec; path = ../BTBubble.podspec; sourceTree = "<group>"; };
 		C7F5FDC42AABE37B0F4463E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -193,8 +193,6 @@
 				996462E72B306DD500319253 /* 气泡的动画 */,
 				996462E82B306DD500319253 /* 气泡的方向 */,
 				996462E02B304BDF00319253 /* 气泡的手势 & 生命周期 */,
-				996462D82B3047F700319253 /* Bubble0DetailViewController.swift */,
-				996462D92B3047F700319253 /* BubbleInputViewController.swift */,
 				996462DE2B30485600319253 /* Tools.swift */,
 			);
 			path = Bubble;
@@ -244,6 +242,8 @@
 		99D625292B31821600492DC2 /* 气泡联动 */ = {
 			isa = PBXGroup;
 			children = (
+				99D625302B31844A00492DC2 /* BubbleInputViewController.swift */,
+				99D6252C2B31829600492DC2 /* MobileAssociateView.swift */,
 			);
 			path = "气泡联动";
 			sourceTree = "<group>";
@@ -422,8 +422,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				996462DC2B3047F700319253 /* Bubble0DetailViewController.swift in Sources */,
-				996462DD2B3047F700319253 /* BubbleInputViewController.swift in Sources */,
+				99D625312B31844A00492DC2 /* BubbleInputViewController.swift in Sources */,
+				99D6252D2B31829600492DC2 /* MobileAssociateView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				996462DB2B3047F700319253 /* BubbleDirectionViewController.swift in Sources */,
 				99D625262B317F9600492DC2 /* BubbleMenuViewController.swift in Sources */,

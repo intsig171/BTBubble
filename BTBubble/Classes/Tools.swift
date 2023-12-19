@@ -49,6 +49,32 @@ extension UIDevice {
 }
 
 extension String {
+    
+    /// 字符串 转 Number
+    var numberValue: NSNumber? {
+        let str = self
+        if let value = Int(str) {
+            return NSNumber.init(value: value)
+        } else {
+            return nil
+        }
+    }
+    
+    /// 手机号格式化 （123 4567 8910)
+    func phoneNumberFormat() -> String {
+        guard let number = numberValue else {
+            return self
+        }
+        let numberFormatter = NumberFormatter()
+        numberFormatter.positiveFormat = "###,####,####" //设置格式
+        if var format = numberFormatter.string(from: number) {
+            format = format.replacingOccurrences(of: ",", with: " ")
+            return format
+        } else {
+            return self
+        }
+    }
+    
     /// 计算字符串的宽度
     func getWidth(font: UIFont, height: CGFloat) -> CGFloat {
         let statusLabelText: NSString = self as NSString

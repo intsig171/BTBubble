@@ -9,24 +9,34 @@
 import Foundation
 import UIKit
 import BTBubble
+class BubbleInputViewController: BubbleBaseViewController {
+    
+    /// 用于记录当前文字光标的位置
+    private var currentPosition: Int = 0
+    private var ignoreRecordMarkStart: Bool = false
 
-class BubbleInputViewController: UIViewController {
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        button.isHidden = true
+        isAutoShowBubble = false
                 
-        title = "气泡"
+        title = "气泡的联动"
         view.addSubview(textField)
         textField.inputView?.backgroundColor = UIColor.red
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        textField.becomeFirstResponder()
     }
     
     lazy var textField: UITextField = {
         let tf = UITextField()
         tf.font = UIFont.systemFont(ofSize: 15)
         tf.frame = CGRect(x: 50, y: 200, width: 270, height: 50)
-        tf.backgroundColor = UIColor.orange
+        tf.backgroundColor = UIColor.white
+        tf.borderStyle = .roundedRect
         tf.addTarget(self, action: #selector(textFieldDidEditing(textField:)), for: .editingChanged)
         tf.addTarget(self, action: #selector(textFieldDidBegin(textField:)), for: .editingDidBegin)
 
@@ -34,14 +44,14 @@ class BubbleInputViewController: UIViewController {
     }()
 
     
-    lazy var bubble: BTBubble = {
+    
+    lazy var bubbleView: BTBubble = {
         let b = BTBubble()
         b.arrowSize = CGSize(width: 6, height: 7)
         b.arrowOffset = .before(8)
         b.horizontalOffset = -130
         return b
     }()
-   
 }
 
 extension BubbleInputViewController {
@@ -50,11 +60,21 @@ extension BubbleInputViewController {
         let textWidth = textField.text?.getWidth(font: UIFont.systemFont(ofSize: 15), height: 20) ?? 0
         
         var f = textField.convertFrameToScreen()
-        f.origin.x += textWidth
-        bubble.from = f
+        var x = f.origin.x + textWidth
+        print("x == \(x)  || maxX = \(textField.frame.maxX)")
+        
+        if x > textField.frame.maxX - 8 {
+            x = textField.frame.maxX - 8
+        }
+        
+        f.origin.x = x
+        
+        
+        bubbleView.from = f
+        bubbleView.update(text: textField.text ?? "")
     }
     @objc func textFieldDidBegin(textField: UITextField) {
 //        textField.selectedTextRange?.end
-        bubble.show(text: "122123123121", from: textField, duration: 100)
+        bubbleView.show(text: "请输入", from: textField, duration: 100)
     }
 }

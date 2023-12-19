@@ -210,8 +210,9 @@ extension ViewController {
                 return menu
         
             case 1:
-                
-                break
+                let input = BubbleInputViewController()
+                input.title = subModel.title
+                return input
                 
             default:
                 break

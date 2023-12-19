@@ -111,9 +111,8 @@ class ViewController: UIViewController {
         
         Model(title: "气泡的高阶用法",
               items: [
-                SubModel(title: "菜单气泡", vc: "BubbleBaseViewController"),
-                SubModel(title: "富文本类型", vc: "BubbleBaseViewController"),
-                SubModel(title: "自定类型", vc: "BubbleBaseViewController"),
+                SubModel(title: "菜单气泡", vc: "BubbleMenuViewController"),
+                SubModel(title: "输入联动", vc: "BubbleInputViewController"),
               ]
              ),
     ]
