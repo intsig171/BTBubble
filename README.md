@@ -35,6 +35,9 @@ bubble.show(text: "明亮的月光洒在窗户纸上，好像地上泛起了一�
 
 
 
+### 联系我们
+![QQ](https://github.com/intsig171/BTBubble/assets/87351449/22c7d153-a618-42fc-af61-4ed1983be91d)
+
 
 ## License
 
