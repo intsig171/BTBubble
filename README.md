@@ -5,6 +5,7 @@
 
 
 这是Swift语言实现的一款气泡能力。
+
 ![BTBubbleGif](https://github.com/intsig171/BTBubble/blob/main/Sample/bubbleSmaple.gif)
 
 
