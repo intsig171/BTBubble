@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		029C04A1B3AD453B07D37EA79CF1468C /* BTBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAFF29B6F4B897E60D94185A5B7432F /* BTBubble.swift */; };
-		08B8C06F93C46A6ECEFE138B7B8A06B6 /* BTBubble+Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06218036B4A302F0DF29D3F1B90675 /* BTBubble+Check.swift */; };
-		090EFC64CA37BC50D4BE261958E8CDFC /* BTBubble+Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71EC081E2D797C3CAA974A44CA9744 /* BTBubble+Menu.swift */; };
+		021B1DADFD3B8C91B223CE6E60AF2589 /* BTBubble+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC99D3C682C56479C4F884FE94C941C /* BTBubble+Location.swift */; };
 		104A34EEA74845494D42CB84DCB92110 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBBDB0D11D15EA3C0D640EF407F700 /* ConstraintMakerExtendable.swift */; };
 		1591ADF568C8E9CF53019F56821742B5 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0072CC268C7456CC1DA6E8180975AB43 /* ConstraintViewDSL.swift */; };
 		1858DB1A6C12CF136523C15CD24F8FF0 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57B4B15AAC3AB24B43306829FAA77A0 /* ConstraintPriority.swift */; };
-		1B9A9541786A8203F14918B815FC91AD /* BTBubble+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356ACEAFD5BF83CD62EB41E7E0C44591 /* BTBubble+Animation.swift */; };
 		1D2423DA77CC2D6D47A71C4B56256765 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412D51A2BEEF78C262C4B3F3798D1702 /* ConstraintMakerFinalizable.swift */; };
+		1FA79F296D50155ED46D042CF8CEB7F5 /* BubbleTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DAD2C7CFEB90E954EB5CFD66ECAEC2 /* BubbleTools.swift */; };
 		23C68FBDFB4D9B7E4466EE8872EA56CA /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7096225ED146E16EC168C99FEDD215B5 /* ConstraintPriorityTarget.swift */; };
 		23E02FFCFD8C26137D431E363ADAA361 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D52A60BF41010F680313572B051598 /* ConstraintInsets.swift */; };
 		27C559ECA9C54B8B9B4C8B7F3DBF7069 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 143498449916D71708A8AF2F96E7320A /* SnapKit-dummy.m */; };
@@ -26,17 +24,20 @@
 		3F34A0A61006D59FC07A913ABF006F8F /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5693124BFA9269D2085EC1ADFAAD76 /* ConstraintInsetTarget.swift */; };
 		422F98F6C43EAC4D9BB008DCA5AB871D /* Pods-BTBubble_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 572D41D9BE061FA9E396DFF8B2B1FD49 /* Pods-BTBubble_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46B067D154A17204F78069022905BB8F /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00529F62152FE0E9A82AF6D8EAAAE2E1 /* ConstraintMultiplierTarget.swift */; };
-		52B4383879242193192C100452FD2E38 /* BTBubbleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB55271C3264757886AF160DD2FB9C /* BTBubbleConfig.swift */; };
+		4D7A1726764DF50021A05FEDFBA13B63 /* BTBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B83C66F14AC5DC1879761768B68F3D /* BTBubble.swift */; };
 		5E549BDAD2542CC62E643FD0323CDCDA /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960E2E91424D9428F311B73888D8E927 /* Typealiases.swift */; };
+		636ACDDE4F2B37148EC2D5E957F4C54F /* BTBubble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C614D77E224D49280DCC5A0522B64C0C /* BTBubble-dummy.m */; };
 		645335D8964CFEF61B173CBFB20E35B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		675F65F717D8C7980C42B2F0A5384C2D /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE15C12D4B2736CB1D1B07F4838FCA7 /* LayoutConstraintItem.swift */; };
+		67FED9EB4217B70BFB88DF815FDED8B4 /* BTBubble+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D74795CF86CEC476BF93D7E6327F95 /* BTBubble+Animation.swift */; };
+		6CC0EAFFBA18A4AC588336787BEEB26C /* BTBubbleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D626C35768A9DD77C8C88B5CFE2C1028 /* BTBubbleConfig.swift */; };
 		6E27E39D3841775AD6B0A10488C4CD90 /* ConstraintMakerRelatable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583BBF75085D255E27A5F9EF9EC203A5 /* ConstraintMakerRelatable+Extensions.swift */; };
 		6F222392DE58F72B3B0066C70A12549D /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA50A49AB14A27B030EF455D9943EB8B /* ConstraintLayoutSupport.swift */; };
 		6FFDD46D6E68695824986A7DF0CB6E4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		707984B2C389AF8441B167495F18A646 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04B678C00268C9CF7E410145D6F78AA /* ConstraintLayoutGuide+Extensions.swift */; };
+		715ECD5F775F7949A37C3D52D20DBED9 /* BTBubble+Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08946DB6BA49E2D8565B01D85E630D8C /* BTBubble+Check.swift */; };
 		7778CC8AB9F65C616A865564A25A4CAB /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6A462E0F0B040B83C8763773533FE /* LayoutConstraint.swift */; };
 		7B171711F5D86EF3E82865720BDA15E5 /* Pods-BTBubble_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2D4C7F4C97113A18295F72D14DE38 /* Pods-BTBubble_Example-dummy.m */; };
-		7E6164427673B5888B41A78F84CDB71A /* BTBubble+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90D7DD322EA7D3CA582C6A91F084163 /* BTBubble+Location.swift */; };
 		7E9E31C12EC2AB009D65D058EDDA9330 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DFD8FEE78807F86F0544749C80450 /* ConstraintDirectionalInsets.swift */; };
 		80FF460F3DA77EBF23FBFA7560C01E9E /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */; };
 		84BCF27EF299D2B02B56081C6C6BE594 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF34962F54DAA8DEB0A1D7D4F3FC09A /* ConstraintRelatableTarget.swift */; };
@@ -44,7 +45,8 @@
 		8D5FE78DB51E96E00799FF58F4C58702 /* ConstraintMakerPrioritizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A527ED8F0A719FF610D743A87DAD3 /* ConstraintMakerPrioritizable.swift */; };
 		9216CDB875CF24B6C90895F1FD736944 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57C38722D9F65992CF2200038C8651E /* ConstraintMakerEditable.swift */; };
 		93518516A92400B2580D4BB437F900D4 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91F91B010D4991E838DAC578595BA7A /* ConstraintLayoutGuideDSL.swift */; };
-		95F323BD82CA24B9C3F839C89096B151 /* BTBubble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E44397F9408A7AA7867350205140C59 /* BTBubble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F323BD82CA24B9C3F839C89096B151 /* BTBubble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC714B7629805CB8BB879F2300066678 /* BTBubble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB9F920C0CC3778FD58D47FDA7D6A7A /* BTBubble+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F03DD574C8F74E78A551A34695E90 /* BTBubble+Draw.swift */; };
 		9E63CDBD3A9BEB75E53A063868EEE471 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458867733779570F7398C76B46AEAF5E /* ConstraintView.swift */; };
 		A463EB3F119662964D3FEFF157428373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A48A974B52D427F0B6318258E62742FC /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E74C9EDB065D2E76B3EDCCB6E2153 /* ConstraintRelation.swift */; };
@@ -54,12 +56,10 @@
 		B5A35F9687A09C59F73D505222D49BC5 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5032FD34D5BB9A1F925C649B43CC02DC /* ConstraintLayoutSupportDSL.swift */; };
 		B86B7FB8E3829B58F8460089B9CCB121 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D5202E1F291CC13F7AE0CD669B831 /* ConstraintOffsetTarget.swift */; };
 		C16F8564741A76299F28B783684D98E7 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D2A11C17BBCE3C9F7F0BA9555B5AE /* ConstraintLayoutGuide.swift */; };
+		C35119D3AA08E1AD3EC7CDFA0FF400A8 /* BTBubble+Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B39B1BF4682B9C4E9C213273DEA2C1 /* BTBubble+Menu.swift */; };
 		C3EBB906A4FFF725064C1EA3AF7F308C /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CBE69DD3B611E4180FCBDD8CDE8814 /* Debugging.swift */; };
 		C7BFC9CD4C308AED4487510D297F65DB /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 932076048BB79360F50A76C2C738DFC8 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE48F97F0469B42B1D9E3849696636EF /* BubbleTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5E66DAAB1291CFF425C6269A5DA1D /* BubbleTools.swift */; };
 		D589EBDEB1F6879255FEBD1FB05C90F4 /* Pods-BTBubble_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 899B123BC26DA6E0E5E2264E6A0B4383 /* Pods-BTBubble_Tests-dummy.m */; };
-		D9D7B889C8CD63CF29C703698C46855F /* BTBubble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9FCF77D5A7026D48F2AC63F6E06A1E /* BTBubble-dummy.m */; };
-		E0421D71D5118BAAFF231346A8C97782 /* BTBubble+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D97740FBECA02971C367C0C957AA4A3 /* BTBubble+Draw.swift */; };
 		EDE4CA68A5FBCF39A8701EA14FFB7A6F /* Pods-BTBubble_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C5F6AEC48667D2634829E81AF62F69 /* Pods-BTBubble_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDFA6065368990A0528369022C4ADB68 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */; };
 		F7D16D07EB5F38AD3C30AD7340F3F4F5 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0BC61944B3E89515CACB83BB1B976 /* ConstraintDescription.swift */; };
@@ -101,17 +101,16 @@
 		00529F62152FE0E9A82AF6D8EAAAE2E1 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		0072CC268C7456CC1DA6E8180975AB43 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		02732995CB94C03CB83E1935B434AD74 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
+		08946DB6BA49E2D8565B01D85E630D8C /* BTBubble+Check.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Check.swift"; path = "BTBubble/Classes/BTBubble+Check.swift"; sourceTree = "<group>"; };
 		0A4B3092297166519217A25AD70D5341 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
 		0AFDF096C3836F945945C9FFDB5090F5 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
-		0D97740FBECA02971C367C0C957AA4A3 /* BTBubble+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Draw.swift"; path = "BTBubble/Classes/BTBubble+Draw.swift"; sourceTree = "<group>"; };
 		0EE5F8CB92905AE76169A71226B44035 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
 		143498449916D71708A8AF2F96E7320A /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Sources/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		1699488126A17792ADD2FD01144AF01C /* Pods-BTBubble_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTBubble_Tests.modulemap"; sourceTree = "<group>"; };
-		1E9FCF77D5A7026D48F2AC63F6E06A1E /* BTBubble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTBubble-dummy.m"; sourceTree = "<group>"; };
+		23ADCF7005310488937BA1E01CD557BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
-		2DD29CFD0AE4DAE6FA59DA81ACF6B625 /* BTBubble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTBubble-prefix.pch"; sourceTree = "<group>"; };
-		356ACEAFD5BF83CD62EB41E7E0C44591 /* BTBubble+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Animation.swift"; path = "BTBubble/Classes/BTBubble+Animation.swift"; sourceTree = "<group>"; };
+		28632BB7378D252DC5EF50942C80F2BD /* BTBubble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTBubble.modulemap; sourceTree = "<group>"; };
 		38A6A462E0F0B040B83C8763773533FE /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
 		3AF34962F54DAA8DEB0A1D7D4F3FC09A /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		412D51A2BEEF78C262C4B3F3798D1702 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
@@ -119,7 +118,6 @@
 		450FCBB934C33B8CB3DBC49204E89741 /* Pods-BTBubble_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTBubble_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		458867733779570F7398C76B46AEAF5E /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
 		4C8251A08ED8E6CF34420BBF858126F7 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
-		4D98D2C2688C74769D9B4AD2622804D6 /* BTBubble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTBubble.modulemap; sourceTree = "<group>"; };
 		5032FD34D5BB9A1F925C649B43CC02DC /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		54A0BC61944B3E89515CACB83BB1B976 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
 		572D41D9BE061FA9E396DFF8B2B1FD49 /* Pods-BTBubble_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTBubble_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -128,18 +126,14 @@
 		5F2DCDFF2011C08759407B4E2038CA11 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		62D2D4C7F4C97113A18295F72D14DE38 /* Pods-BTBubble_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTBubble_Example-dummy.m"; sourceTree = "<group>"; };
 		63905B348F22811A2491560CB4949746 /* Pods-BTBubble_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTBubble_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6D59B9207A279F64647A32B4EB64FBEA /* BTBubble-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTBubble-Info.plist"; sourceTree = "<group>"; };
-		6E44397F9408A7AA7867350205140C59 /* BTBubble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTBubble-umbrella.h"; sourceTree = "<group>"; };
-		6EB5E66DAAB1291CFF425C6269A5DA1D /* BubbleTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleTools.swift; path = BTBubble/Classes/BubbleTools.swift; sourceTree = "<group>"; };
+		65A7354D1BDB16BF627E59F3F1DCC323 /* BTBubble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTBubble.debug.xcconfig; sourceTree = "<group>"; };
 		7096225ED146E16EC168C99FEDD215B5 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		70B83C66F14AC5DC1879761768B68F3D /* BTBubble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTBubble.swift; path = BTBubble/Classes/BTBubble.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		751D5202E1F291CC13F7AE0CD669B831 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
 		782C19B041349DED0C47AC71C798375C /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
-		7BB37D5ACBD9D6519A720C57B4A95D99 /* BTBubble.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BTBubble.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		7BC84DB0CD86A51B4B66E0450CBF40DE /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
-		7FAFF29B6F4B897E60D94185A5B7432F /* BTBubble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTBubble.swift; path = BTBubble/Classes/BTBubble.swift; sourceTree = "<group>"; };
 		835468A54FF786452C46D2CD43A71CC1 /* Pods-BTBubble_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTBubble_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		837A46F0C314E0D6AA3D4012AAA75B13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		899B123BC26DA6E0E5E2264E6A0B4383 /* Pods-BTBubble_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTBubble_Tests-dummy.m"; sourceTree = "<group>"; };
 		89C8C1CDC12617540A053B97BA269382 /* Pods-BTBubble_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BTBubble_Tests"; path = Pods_BTBubble_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C5F6AEC48667D2634829E81AF62F69 /* Pods-BTBubble_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTBubble_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -147,42 +141,48 @@
 		93B02F10DC1A0199CF40F73528F84633 /* Pods-BTBubble_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTBubble_Example.release.xcconfig"; sourceTree = "<group>"; };
 		94E42FA589867A878EC039323DA40B7F /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		960E2E91424D9428F311B73888D8E927 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
-		977908DA5C06A52DEB15D6E61E8B7A17 /* BTBubble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTBubble.release.xcconfig; sourceTree = "<group>"; };
 		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B06218036B4A302F0DF29D3F1B90675 /* BTBubble+Check.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Check.swift"; path = "BTBubble/Classes/BTBubble+Check.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0A527ED8F0A719FF610D743A87DAD3 /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
+		A1D74795CF86CEC476BF93D7E6327F95 /* BTBubble+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Animation.swift"; path = "BTBubble/Classes/BTBubble+Animation.swift"; sourceTree = "<group>"; };
 		A3C30AB629790CD8F368F16A60C39066 /* Pods-BTBubble_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTBubble_Tests-Info.plist"; sourceTree = "<group>"; };
+		A57EDA668CE57883FD2C4120ABB6EA33 /* BTBubble-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTBubble-Info.plist"; sourceTree = "<group>"; };
+		A7DAD2C7CFEB90E954EB5CFD66ECAEC2 /* BubbleTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleTools.swift; path = BTBubble/Classes/BubbleTools.swift; sourceTree = "<group>"; };
+		AD824E427DFBCF17B5967B7EBC241F6A /* BTBubble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTBubble-prefix.pch"; sourceTree = "<group>"; };
 		AE2012923477604DDEFBDF4E69065E32 /* Pods-BTBubble_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTBubble_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B0A269C94EA44F9D674FA7FDE40C5019 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B23F03DD574C8F74E78A551A34695E90 /* BTBubble+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Draw.swift"; path = "BTBubble/Classes/BTBubble+Draw.swift"; sourceTree = "<group>"; };
 		B57B4B15AAC3AB24B43306829FAA77A0 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
 		B66F7BC9A4DCD060099089C86B6DBC00 /* BTBubble */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTBubble; path = BTBubble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA50A49AB14A27B030EF455D9943EB8B /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		BC714B7629805CB8BB879F2300066678 /* BTBubble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTBubble-umbrella.h"; sourceTree = "<group>"; };
 		BC8DFD8FEE78807F86F0544749C80450 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
-		BD71EC081E2D797C3CAA974A44CA9744 /* BTBubble+Menu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Menu.swift"; path = "BTBubble/Classes/BTBubble+Menu.swift"; sourceTree = "<group>"; };
 		BDF6E18B5372A4BBE8507FE4B9F165C0 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		C16AF691B797D321120ACA5B9BEC8C42 /* Pods-BTBubble_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTBubble_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C282AEDFB53BD2F6B277738727FF116D /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		C4B286330DE5F8DB067D4EB05F219319 /* Pods-BTBubble_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTBubble_Example.modulemap"; sourceTree = "<group>"; };
 		C5D52A60BF41010F680313572B051598 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
+		C614D77E224D49280DCC5A0522B64C0C /* BTBubble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTBubble-dummy.m"; sourceTree = "<group>"; };
 		C83141A7BA266489296BCBEF99AC5412 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Sources/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		C91F91B010D4991E838DAC578595BA7A /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
-		CEF8BDFBFAB734CB64F0120C2306B5D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D2B39B1BF4682B9C4E9C213273DEA2C1 /* BTBubble+Menu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Menu.swift"; path = "BTBubble/Classes/BTBubble+Menu.swift"; sourceTree = "<group>"; };
 		D2FD9EFCFC3AA452137876B761FFB621 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		D626C35768A9DD77C8C88B5CFE2C1028 /* BTBubbleConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTBubbleConfig.swift; path = BTBubble/Classes/BTBubbleConfig.swift; sourceTree = "<group>"; };
 		DA142F16F8E1BE710445F4DACF7DEB88 /* Pods-BTBubble_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BTBubble_Example"; path = Pods_BTBubble_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC99D3C682C56479C4F884FE94C941C /* BTBubble+Location.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Location.swift"; path = "BTBubble/Classes/BTBubble+Location.swift"; sourceTree = "<group>"; };
 		DD101E65ADCCC341BCD3BFF777CA947C /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
 		DDFBBDB0D11D15EA3C0D640EF407F700 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		E04B678C00268C9CF7E410145D6F78AA /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		E30E74C9EDB065D2E76B3EDCCB6E2153 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
-		E90D7DD322EA7D3CA582C6A91F084163 /* BTBubble+Location.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Location.swift"; path = "BTBubble/Classes/BTBubble+Location.swift"; sourceTree = "<group>"; };
-		ECCD9A66C08FC2037456A6954D219FAA /* BTBubble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTBubble.debug.xcconfig; sourceTree = "<group>"; };
+		EB19542891FE97428FD33F7BEF8681C3 /* BTBubble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTBubble.release.xcconfig; sourceTree = "<group>"; };
 		EEE15C12D4B2736CB1D1B07F4838FCA7 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Sources/LayoutConstraintItem.swift; sourceTree = "<group>"; };
-		EFDB55271C3264757886AF160DD2FB9C /* BTBubbleConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTBubbleConfig.swift; path = BTBubble/Classes/BTBubbleConfig.swift; sourceTree = "<group>"; };
 		F4CBE69DD3B611E4180FCBDD8CDE8814 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Sources/Debugging.swift; sourceTree = "<group>"; };
 		F55D2A11C17BBCE3C9F7F0BA9555B5AE /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		F57C38722D9F65992CF2200038C8651E /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Sources/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		F5D94366B342213037D174D3BCDCF4E7 /* Pods-BTBubble_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTBubble_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDDA1480F7DB537D6299E92DE2D1949E /* Pods-BTBubble_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTBubble_Example-Info.plist"; sourceTree = "<group>"; };
 		FE5693124BFA9269D2085EC1ADFAAD76 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		FF9FBB245C2DF2EC4A7C00A1EFD41926 /* BTBubble.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BTBubble.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,39 +221,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		020A796CF404E3D9A1CD5916E870DF9A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4D98D2C2688C74769D9B4AD2622804D6 /* BTBubble.modulemap */,
-				1E9FCF77D5A7026D48F2AC63F6E06A1E /* BTBubble-dummy.m */,
-				6D59B9207A279F64647A32B4EB64FBEA /* BTBubble-Info.plist */,
-				2DD29CFD0AE4DAE6FA59DA81ACF6B625 /* BTBubble-prefix.pch */,
-				6E44397F9408A7AA7867350205140C59 /* BTBubble-umbrella.h */,
-				ECCD9A66C08FC2037456A6954D219FAA /* BTBubble.debug.xcconfig */,
-				977908DA5C06A52DEB15D6E61E8B7A17 /* BTBubble.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BTBubble";
-			sourceTree = "<group>";
-		};
-		12E06EDE2719DD324EF1F717D6085E36 /* BTBubble */ = {
-			isa = PBXGroup;
-			children = (
-				7FAFF29B6F4B897E60D94185A5B7432F /* BTBubble.swift */,
-				356ACEAFD5BF83CD62EB41E7E0C44591 /* BTBubble+Animation.swift */,
-				9B06218036B4A302F0DF29D3F1B90675 /* BTBubble+Check.swift */,
-				0D97740FBECA02971C367C0C957AA4A3 /* BTBubble+Draw.swift */,
-				E90D7DD322EA7D3CA582C6A91F084163 /* BTBubble+Location.swift */,
-				BD71EC081E2D797C3CAA974A44CA9744 /* BTBubble+Menu.swift */,
-				EFDB55271C3264757886AF160DD2FB9C /* BTBubbleConfig.swift */,
-				6EB5E66DAAB1291CFF425C6269A5DA1D /* BubbleTools.swift */,
-				2B3A58EF350F8F934177DE5483D054A0 /* Pod */,
-				020A796CF404E3D9A1CD5916E870DF9A /* Support Files */,
-			);
-			name = BTBubble;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		16B35C0CA1ACAB036EA7D8A5A0FF7538 /* Pods-BTBubble_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,16 +238,6 @@
 			path = "Target Support Files/Pods-BTBubble_Example";
 			sourceTree = "<group>";
 		};
-		2B3A58EF350F8F934177DE5483D054A0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7BB37D5ACBD9D6519A720C57B4A95D99 /* BTBubble.podspec */,
-				CEF8BDFBFAB734CB64F0120C2306B5D5 /* LICENSE */,
-				837A46F0C314E0D6AA3D4012AAA75B13 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		403EB05A3920652EED411213C52E3AC2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,12 +253,55 @@
 			path = "../Target Support Files/SnapKit";
 			sourceTree = "<group>";
 		};
+		5412EA0C170AB39FF69CEE2E3FCEDA0A /* BTBubble */ = {
+			isa = PBXGroup;
+			children = (
+				70B83C66F14AC5DC1879761768B68F3D /* BTBubble.swift */,
+				A1D74795CF86CEC476BF93D7E6327F95 /* BTBubble+Animation.swift */,
+				08946DB6BA49E2D8565B01D85E630D8C /* BTBubble+Check.swift */,
+				B23F03DD574C8F74E78A551A34695E90 /* BTBubble+Draw.swift */,
+				DCC99D3C682C56479C4F884FE94C941C /* BTBubble+Location.swift */,
+				D2B39B1BF4682B9C4E9C213273DEA2C1 /* BTBubble+Menu.swift */,
+				D626C35768A9DD77C8C88B5CFE2C1028 /* BTBubbleConfig.swift */,
+				A7DAD2C7CFEB90E954EB5CFD66ECAEC2 /* BubbleTools.swift */,
+				780680D1DC45E74B17403EDB3D6FDCAA /* Pod */,
+				72E92DD529D16969759EA1D5DE57583D /* Support Files */,
+			);
+			name = BTBubble;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		72E92DD529D16969759EA1D5DE57583D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28632BB7378D252DC5EF50942C80F2BD /* BTBubble.modulemap */,
+				C614D77E224D49280DCC5A0522B64C0C /* BTBubble-dummy.m */,
+				A57EDA668CE57883FD2C4120ABB6EA33 /* BTBubble-Info.plist */,
+				AD824E427DFBCF17B5967B7EBC241F6A /* BTBubble-prefix.pch */,
+				BC714B7629805CB8BB879F2300066678 /* BTBubble-umbrella.h */,
+				65A7354D1BDB16BF627E59F3F1DCC323 /* BTBubble.debug.xcconfig */,
+				EB19542891FE97428FD33F7BEF8681C3 /* BTBubble.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BTBubble";
+			sourceTree = "<group>";
+		};
+		780680D1DC45E74B17403EDB3D6FDCAA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FF9FBB245C2DF2EC4A7C00A1EFD41926 /* BTBubble.podspec */,
+				23ADCF7005310488937BA1E01CD557BB /* LICENSE */,
+				B0A269C94EA44F9D674FA7FDE40C5019 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9E6FEF482951FF54A9BB2419E93C237C /* Targets Support Files */ = {
@@ -343,7 +343,7 @@
 		BDF6ED74AB2175CBADD2C34F3231C1F0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				12E06EDE2719DD324EF1F717D6085E36 /* BTBubble */,
+				5412EA0C170AB39FF69CEE2E3FCEDA0A /* BTBubble */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -410,6 +410,7 @@
 				152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */,
 				403EB05A3920652EED411213C52E3AC2 /* Support Files */,
 			);
+			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -501,7 +502,7 @@
 			buildConfigurationList = 9030BCCF1A067C62BDD5F912928BC8E2 /* Build configuration list for PBXNativeTarget "BTBubble" */;
 			buildPhases = (
 				A35D75494039B9B9B9D1F86052E5202B /* Headers */,
-				A24A8D96B2644251F2BBA0F952242922 /* Sources */,
+				3A74B487CAA4F5E6002A73174D9D9C57 /* Sources */,
 				280303ADCF1B12B8DE56E9DB5093D9AE /* Frameworks */,
 				7E678C0C94A5A9B1402C652E2D8B613A /* Resources */,
 			);
@@ -597,19 +598,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A24A8D96B2644251F2BBA0F952242922 /* Sources */ = {
+		3A74B487CAA4F5E6002A73174D9D9C57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029C04A1B3AD453B07D37EA79CF1468C /* BTBubble.swift in Sources */,
-				1B9A9541786A8203F14918B815FC91AD /* BTBubble+Animation.swift in Sources */,
-				08B8C06F93C46A6ECEFE138B7B8A06B6 /* BTBubble+Check.swift in Sources */,
-				E0421D71D5118BAAFF231346A8C97782 /* BTBubble+Draw.swift in Sources */,
-				7E6164427673B5888B41A78F84CDB71A /* BTBubble+Location.swift in Sources */,
-				090EFC64CA37BC50D4BE261958E8CDFC /* BTBubble+Menu.swift in Sources */,
-				D9D7B889C8CD63CF29C703698C46855F /* BTBubble-dummy.m in Sources */,
-				52B4383879242193192C100452FD2E38 /* BTBubbleConfig.swift in Sources */,
-				CE48F97F0469B42B1D9E3849696636EF /* BubbleTools.swift in Sources */,
+				4D7A1726764DF50021A05FEDFBA13B63 /* BTBubble.swift in Sources */,
+				67FED9EB4217B70BFB88DF815FDED8B4 /* BTBubble+Animation.swift in Sources */,
+				715ECD5F775F7949A37C3D52D20DBED9 /* BTBubble+Check.swift in Sources */,
+				9BB9F920C0CC3778FD58D47FDA7D6A7A /* BTBubble+Draw.swift in Sources */,
+				021B1DADFD3B8C91B223CE6E60AF2589 /* BTBubble+Location.swift in Sources */,
+				C35119D3AA08E1AD3EC7CDFA0FF400A8 /* BTBubble+Menu.swift in Sources */,
+				636ACDDE4F2B37148EC2D5E957F4C54F /* BTBubble-dummy.m in Sources */,
+				6CC0EAFFBA18A4AC588336787BEEB26C /* BTBubbleConfig.swift in Sources */,
+				1FA79F296D50155ED46D042CF8CEB7F5 /* BubbleTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,7 +774,7 @@
 		};
 		3C9A3710B9EED4ABE2D6C72D7EB964EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECCD9A66C08FC2037456A6954D219FAA /* BTBubble.debug.xcconfig */;
+			baseConfigurationReference = 65A7354D1BDB16BF627E59F3F1DCC323 /* BTBubble.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -889,7 +890,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -897,7 +899,7 @@
 		};
 		BCBBB44CFA9333B641175186B35BE136 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 977908DA5C06A52DEB15D6E61E8B7A17 /* BTBubble.release.xcconfig */;
+			baseConfigurationReference = EB19542891FE97428FD33F7BEF8681C3 /* BTBubble.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
