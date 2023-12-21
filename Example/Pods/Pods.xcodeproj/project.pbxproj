@@ -56,7 +56,7 @@
 		C16F8564741A76299F28B783684D98E7 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D2A11C17BBCE3C9F7F0BA9555B5AE /* ConstraintLayoutGuide.swift */; };
 		C3EBB906A4FFF725064C1EA3AF7F308C /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CBE69DD3B611E4180FCBDD8CDE8814 /* Debugging.swift */; };
 		C7BFC9CD4C308AED4487510D297F65DB /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 932076048BB79360F50A76C2C738DFC8 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE48F97F0469B42B1D9E3849696636EF /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5E66DAAB1291CFF425C6269A5DA1D /* Tools.swift */; };
+		CE48F97F0469B42B1D9E3849696636EF /* BubbleTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5E66DAAB1291CFF425C6269A5DA1D /* BubbleTools.swift */; };
 		D589EBDEB1F6879255FEBD1FB05C90F4 /* Pods-BTBubble_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 899B123BC26DA6E0E5E2264E6A0B4383 /* Pods-BTBubble_Tests-dummy.m */; };
 		D9D7B889C8CD63CF29C703698C46855F /* BTBubble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9FCF77D5A7026D48F2AC63F6E06A1E /* BTBubble-dummy.m */; };
 		E0421D71D5118BAAFF231346A8C97782 /* BTBubble+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D97740FBECA02971C367C0C957AA4A3 /* BTBubble+Draw.swift */; };
@@ -130,7 +130,7 @@
 		63905B348F22811A2491560CB4949746 /* Pods-BTBubble_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTBubble_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6D59B9207A279F64647A32B4EB64FBEA /* BTBubble-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTBubble-Info.plist"; sourceTree = "<group>"; };
 		6E44397F9408A7AA7867350205140C59 /* BTBubble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTBubble-umbrella.h"; sourceTree = "<group>"; };
-		6EB5E66DAAB1291CFF425C6269A5DA1D /* Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tools.swift; path = BTBubble/Classes/Tools.swift; sourceTree = "<group>"; };
+		6EB5E66DAAB1291CFF425C6269A5DA1D /* BubbleTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleTools.swift; path = BTBubble/Classes/BubbleTools.swift; sourceTree = "<group>"; };
 		7096225ED146E16EC168C99FEDD215B5 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		751D5202E1F291CC13F7AE0CD669B831 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
@@ -246,7 +246,7 @@
 				E90D7DD322EA7D3CA582C6A91F084163 /* BTBubble+Location.swift */,
 				BD71EC081E2D797C3CAA974A44CA9744 /* BTBubble+Menu.swift */,
 				EFDB55271C3264757886AF160DD2FB9C /* BTBubbleConfig.swift */,
-				6EB5E66DAAB1291CFF425C6269A5DA1D /* Tools.swift */,
+				6EB5E66DAAB1291CFF425C6269A5DA1D /* BubbleTools.swift */,
 				2B3A58EF350F8F934177DE5483D054A0 /* Pod */,
 				020A796CF404E3D9A1CD5916E870DF9A /* Support Files */,
 			);
@@ -609,7 +609,7 @@
 				090EFC64CA37BC50D4BE261958E8CDFC /* BTBubble+Menu.swift in Sources */,
 				D9D7B889C8CD63CF29C703698C46855F /* BTBubble-dummy.m in Sources */,
 				52B4383879242193192C100452FD2E38 /* BTBubbleConfig.swift in Sources */,
-				CE48F97F0469B42B1D9E3849696636EF /* Tools.swift in Sources */,
+				CE48F97F0469B42B1D9E3849696636EF /* BubbleTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BTBubble'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '气泡'
   
   s.homepage         = 'https://github.com/intsig171'

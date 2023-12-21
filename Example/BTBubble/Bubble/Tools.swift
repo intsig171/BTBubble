@@ -60,20 +60,6 @@ extension String {
         }
     }
     
-    /// 手机号格式化 （123 4567 8910)
-    func phoneNumberFormat() -> String {
-        guard let number = numberValue else {
-            return self
-        }
-        let numberFormatter = NumberFormatter()
-        numberFormatter.positiveFormat = "###,####,####" //设置格式
-        if var format = numberFormatter.string(from: number) {
-            format = format.replacingOccurrences(of: ",", with: " ")
-            return format
-        } else {
-            return self
-        }
-    }
     
     /// 计算字符串的宽度
     func getWidth(font: UIFont, height: CGFloat) -> CGFloat {
@@ -219,38 +205,3 @@ extension UIWindow {
 
 
 
-extension UIView {
-    
-    ///获取当前视图相对 屏幕的frame
-    /// - Returns: 相对屏幕的rect
-    func convertFrameToScreen() -> CGRect {
-        
-        if let keyWindow = UIApplication.shared.keyWindow, let newBounds = superview?.convert(frame, to: keyWindow) {
-            return newBounds
-        }
-        
-        var x: CGFloat = 0
-        var y: CGFloat = 0
-        
-        var view: UIView = self
-        
-        while ((view.superview as? UIWindow) == nil) {
-            x += view.frame.origin.x
-            y += view.frame.origin.y
-            
-            
-            guard let father = view.superview else {
-                break
-            }
-            
-            view = father
-            
-            if view.isKind(of: UIScrollView.self) {
-                x -= (view as! UIScrollView).contentOffset.x
-                y -= (view as! UIScrollView).contentOffset.y
-            }
-        }
-        
-        return CGRect(x: x, y: y, width: frame.size.width, height: frame.size.height)
-    }
-}
