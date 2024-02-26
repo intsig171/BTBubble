@@ -1,5 +1,5 @@
 PODS:
-  - BTBubble (0.0.3):
+  - BTBubble (0.0.4):
     - SnapKit
   - SnapKit (5.6.0)
 
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BTBubble: 47e331cbcc9bbf9d8cdd4144e3f5d693de64b42b
+  BTBubble: bdf8407521a3f93eb613b7e242fb2c0d20771233
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
 PODFILE CHECKSUM: 183ed891eac6bf1191e28517bce96c625966fd0a
