@@ -1,10 +1,9 @@
 //
 //  BTBubble+Menu.swift
-//  BTMaterial
+//  BTBubble
 //
-//  Created by qixin on 2023/7/11.
+//  Created by Mccc on 2022/11/21.
 //
-
 import Foundation
 import SnapKit
 

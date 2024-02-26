@@ -45,7 +45,7 @@ class BubbleBaseViewController: UIViewController {
             customCutout()
         }
 
-        bubble.show(text: "明亮的月光洒在窗户纸上，好像地上泛起了一层白霜。我抬起头来，看那天窗外空中的明月，不由得低头沉思，想起远方的家乡。", from: button)
+        bubble.show(text: "明亮的月光洒在窗户纸上，好像地上泛起了一层白霜。我抬起头来，看那天窗外空中的明月，不由得低头沉思，想起远方的家乡。", from: button, duration: nil)
     }
     
     lazy var button: UIButton = {

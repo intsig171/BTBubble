@@ -1,8 +1,8 @@
 //
 //  BTBubble+Check.swift
-//  BTMaterial
+//  BTBubble
 //
-//  Created by qixin on 2023/1/31.
+//  Created by Mccc on 2022/11/21.
 //
 
 import Foundation

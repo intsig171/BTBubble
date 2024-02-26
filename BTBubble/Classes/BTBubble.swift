@@ -1,6 +1,6 @@
 //
 //  BTBubble.swift
-//  BTMaterial
+//  BTBubble
 //
 //  Created by Mccc on 2022/11/21.
 //
@@ -216,8 +216,8 @@ public class BTBubble: UIView {
     ///   - maxWidth： 最大宽度， 如果不合适，会被覆盖。
     ///   - view: 气泡的父视图
     ///   - frame: 目标frame，气泡箭头指向目标的中心。
-    ///   - duration: 自动隐藏时间， 默认4秒
-    public func show(text: String, direction: BTBubble.Direction = .autoVertical, maxWidth: CGFloat = BTBubbleConfig.shared.maxWidth, from target: UIView, duration: TimeInterval = 4) {
+    ///   - duration: 自动隐藏时间， 默认4秒, 如何设置为nil则不隐藏。
+    public func show(text: String, direction: BTBubble.Direction = .autoVertical, maxWidth: CGFloat = BTBubbleConfig.shared.maxWidth, from target: UIView, duration: TimeInterval? = 4) {
 
         if text.count == 0 { return }
         resetView()
@@ -251,8 +251,8 @@ public class BTBubble: UIView {
     ///   - maxWidth： 最大宽度， 如果不合适，会被覆盖。
     ///   - view: 气泡的父视图
     ///   - frame: 目标frame，气泡箭头指向目标的中心。
-    ///   - duration: 自动隐藏时间， 默认4秒
-    public func show(attributedText: NSMutableAttributedString, direction: BTBubble.Direction = .autoVertical, maxWidth: CGFloat = BTBubbleConfig.shared.maxWidth, from target: UIView, duration: TimeInterval = 4) {
+    ///   - duration: 自动隐藏时间， 默认4秒, 如何设置为nil则不隐藏。
+    public func show(attributedText: NSMutableAttributedString, direction: BTBubble.Direction = .autoVertical, maxWidth: CGFloat = BTBubbleConfig.shared.maxWidth, from target: UIView, duration: TimeInterval? = 4) {
         resetView()
         
         if attributedText.string.isEmpty { return }
@@ -292,7 +292,7 @@ public class BTBubble: UIView {
     ///   - direction: 气泡的展示方向
     ///   - view: 气泡的父视图
     ///   - frame: 目标frame，气泡箭头指向目标的中心。
-    ///   - duration: 自动隐藏时间， 默认4秒
+    ///   - duration: 自动隐藏时间， 默认4秒, 如何设置为nil则不隐藏。
     public func show(customView: UIView, direction: BTBubble.Direction, from target: UIView, duration: TimeInterval? = 4) {
         resetView()
         
