@@ -101,7 +101,7 @@
 		143498449916D71708A8AF2F96E7320A /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Sources/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		1699488126A17792ADD2FD01144AF01C /* Pods-BTBubble_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTBubble_Tests.modulemap"; sourceTree = "<group>"; };
-		23ADCF7005310488937BA1E01CD557BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		23ADCF7005310488937BA1E01CD557BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
 		28632BB7378D252DC5EF50942C80F2BD /* BTBubble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTBubble.modulemap; sourceTree = "<group>"; };
 		38A6A462E0F0B040B83C8763773533FE /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
@@ -134,8 +134,8 @@
 		93B02F10DC1A0199CF40F73528F84633 /* Pods-BTBubble_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTBubble_Example.release.xcconfig"; sourceTree = "<group>"; };
 		94E42FA589867A878EC039323DA40B7F /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		960E2E91424D9428F311B73888D8E927 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
-		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0A527ED8F0A719FF610D743A87DAD3 /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
 		A1D74795CF86CEC476BF93D7E6327F95 /* BTBubble+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Animation.swift"; path = "BTBubble/Classes/BTBubble+Animation.swift"; sourceTree = "<group>"; };
 		A3C30AB629790CD8F368F16A60C39066 /* Pods-BTBubble_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTBubble_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -143,10 +143,10 @@
 		A7DAD2C7CFEB90E954EB5CFD66ECAEC2 /* BubbleTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleTools.swift; path = BTBubble/Classes/BubbleTools.swift; sourceTree = "<group>"; };
 		AD824E427DFBCF17B5967B7EBC241F6A /* BTBubble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTBubble-prefix.pch"; sourceTree = "<group>"; };
 		AE2012923477604DDEFBDF4E69065E32 /* Pods-BTBubble_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTBubble_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B0A269C94EA44F9D674FA7FDE40C5019 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B0A269C94EA44F9D674FA7FDE40C5019 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B23F03DD574C8F74E78A551A34695E90 /* BTBubble+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Draw.swift"; path = "BTBubble/Classes/BTBubble+Draw.swift"; sourceTree = "<group>"; };
 		B57B4B15AAC3AB24B43306829FAA77A0 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
-		B66F7BC9A4DCD060099089C86B6DBC00 /* BTBubble */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTBubble; path = BTBubble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66F7BC9A4DCD060099089C86B6DBC00 /* BTBubble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTBubble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA50A49AB14A27B030EF455D9943EB8B /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		BC714B7629805CB8BB879F2300066678 /* BTBubble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTBubble-umbrella.h"; sourceTree = "<group>"; };
 		BC8DFD8FEE78807F86F0544749C80450 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 		D2B39B1BF4682B9C4E9C213273DEA2C1 /* BTBubble+Menu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Menu.swift"; path = "BTBubble/Classes/BTBubble+Menu.swift"; sourceTree = "<group>"; };
 		D2FD9EFCFC3AA452137876B761FFB621 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
 		D626C35768A9DD77C8C88B5CFE2C1028 /* BTBubbleConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTBubbleConfig.swift; path = BTBubble/Classes/BTBubbleConfig.swift; sourceTree = "<group>"; };
-		DA142F16F8E1BE710445F4DACF7DEB88 /* Pods-BTBubble_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BTBubble_Example"; path = Pods_BTBubble_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA142F16F8E1BE710445F4DACF7DEB88 /* Pods_BTBubble_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTBubble_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC99D3C682C56479C4F884FE94C941C /* BTBubble+Location.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BTBubble+Location.swift"; path = "BTBubble/Classes/BTBubble+Location.swift"; sourceTree = "<group>"; };
 		DD101E65ADCCC341BCD3BFF777CA947C /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
 		DDFBBDB0D11D15EA3C0D640EF407F700 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 		F5D94366B342213037D174D3BCDCF4E7 /* Pods-BTBubble_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTBubble_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDDA1480F7DB537D6299E92DE2D1949E /* Pods-BTBubble_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTBubble_Example-Info.plist"; sourceTree = "<group>"; };
 		FE5693124BFA9269D2085EC1ADFAAD76 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
-		FF9FBB245C2DF2EC4A7C00A1EFD41926 /* BTBubble.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BTBubble.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FF9FBB245C2DF2EC4A7C00A1EFD41926 /* BTBubble.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BTBubble.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,10 +309,10 @@
 		A6A2093BED5C5662674A8F4B2756EF94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B66F7BC9A4DCD060099089C86B6DBC00 /* BTBubble */,
-				DA142F16F8E1BE710445F4DACF7DEB88 /* Pods-BTBubble_Example */,
+				B66F7BC9A4DCD060099089C86B6DBC00 /* BTBubble.framework */,
+				DA142F16F8E1BE710445F4DACF7DEB88 /* Pods_BTBubble_Example.framework */,
 				89C8C1CDC12617540A053B97BA269382 /* Pods-BTBubble_Tests */,
-				979486118B3E90C08386079D57962701 /* SnapKit */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -403,7 +403,6 @@
 				152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */,
 				403EB05A3920652EED411213C52E3AC2 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -468,7 +467,7 @@
 			);
 			name = SnapKit;
 			productName = SnapKit;
-			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2567AAE8B2BDCDDA625FCA06697EF0D8 /* Pods-BTBubble_Tests */ = {
@@ -505,7 +504,7 @@
 			);
 			name = BTBubble;
 			productName = BTBubble;
-			productReference = B66F7BC9A4DCD060099089C86B6DBC00 /* BTBubble */;
+			productReference = B66F7BC9A4DCD060099089C86B6DBC00 /* BTBubble.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CE57F8A2B9F3620C406FF9758FCFB4A1 /* Pods-BTBubble_Example */ = {
@@ -525,7 +524,7 @@
 			);
 			name = "Pods-BTBubble_Example";
 			productName = Pods_BTBubble_Example;
-			productReference = DA142F16F8E1BE710445F4DACF7DEB88 /* Pods-BTBubble_Example */;
+			productReference = DA142F16F8E1BE710445F4DACF7DEB88 /* Pods_BTBubble_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -876,8 +875,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
