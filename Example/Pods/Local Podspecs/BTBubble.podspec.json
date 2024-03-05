@@ -19,10 +19,5 @@
   },
   "swift_versions": "5.0",
   "source_files": "BTBubble/Classes/**/*",
-  "dependencies": {
-    "SnapKit": [
-
-    ]
-  },
   "swift_version": "5.0"
 }

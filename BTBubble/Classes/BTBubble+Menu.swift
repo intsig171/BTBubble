@@ -5,8 +5,6 @@
 //  Created by Mccc on 2022/11/21.
 //
 import Foundation
-import SnapKit
-
 
 extension BTBubble {
     
@@ -91,16 +89,12 @@ public class BTBubbleMenu: UIView {
         self.items = items
         self.config = config
         
-        frame =  getFrame()
-        backgroundColor = .black
+        frame = getFrame()
+        backgroundColor = UIColor.hex("212121")
         
-        tableView.backgroundColor = .black
-        
+        tableView.backgroundColor = UIColor.hex("212121")
+        tableView.frame = CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height)
         addSubview(tableView)
-        tableView.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
-        }
-
         tableView.reloadData()
     }
     
@@ -204,22 +198,21 @@ class MenuCell: UITableViewCell {
                 iconImageView.image = image
                 iconImageView.isHidden = false
                 
-                iconImageView.snp.remakeConstraints { make in
-                    make.left.equalToSuperview()
-                    make.centerY.equalToSuperview()
-                    make.size.equalTo(image.size)
-                }
+                let imgX: CGFloat = 0
+                let imgY: CGFloat = (self.contentView.frame.size.height - image.size.height)/2
+                iconImageView.frame = CGRect(x: imgX, y: imgY, width: image.size.width, height: image.size.height)
 
-                contentlabel.snp.remakeConstraints { make in
-                    make.right.top.bottom.equalToSuperview()
-                    make.left.equalTo(iconImageView.snp.right).offset(5)
-                }
+                let labelX: CGFloat = iconImageView.frame.maxX + 5
+                let labelWidth: CGFloat = self.contentView.frame.size.width - labelX
+                let labelHeight: CGFloat = self.contentView.frame.size.height
+                contentlabel.frame = CGRect(x: labelX, y: 0, width: labelWidth, height: labelHeight)
+                
             } else {
                 iconImageView.isHidden = true
-                contentlabel.snp.makeConstraints { make in
-                    make.edges.equalToSuperview()
-                }
+                contentlabel.frame = CGRect(x: 0, y: 0, width: self.contentView.frame.size.width, height: self.contentView.frame.size.height)
             }
+            
+            lineView.frame = CGRect(x: 0, y: self.contentView.frame.size.height - 0.5, width: self.contentView.frame.size.width, height: 0.5)
         }
     }
     
@@ -236,21 +229,8 @@ class MenuCell: UITableViewCell {
         contentView.backgroundColor = UIColor.hex("212121")
     
         contentView.addSubview(iconImageView)
-        iconImageView.snp.makeConstraints { make in
-            make.left.equalToSuperview()
-            make.centerY.equalToSuperview()
-        }
-    
         contentView.addSubview(contentlabel)
-        contentlabel.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
-        }
-        
         contentView.addSubview(lineView)
-        lineView.snp.makeConstraints { make in
-            make.left.right.bottom.equalToSuperview()
-            make.height.equalTo(0.5)
-        }
     }
     
     required init?(coder: NSCoder) {

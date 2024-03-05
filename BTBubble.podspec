@@ -19,7 +19,5 @@ Pod::Spec.new do |s|
   
   
   s.source_files = 'BTBubble/Classes/**/*'
-  
-  s.dependency 'SnapKit'
 
 end
